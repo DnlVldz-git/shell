@@ -9,12 +9,12 @@ public class main {
         for(int i = 0; i <1_000_000;i++){
             int num = (int) (Math.random()*10+1);
             listita.insertar(num);
-            //System.out.println("#"+i+" :"+num);
+            System.out.println("#"+i+" :"+num);
         }
         
         listita.shell();
         System.out.println("\n Ordenados: \n");
-        //listita.recorrer();
+        listita.recorrer();
     }
     
 }
